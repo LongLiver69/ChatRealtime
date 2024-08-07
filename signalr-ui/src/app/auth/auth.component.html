@@ -1,0 +1,16 @@
+<div class="auth-container">
+  <form class="form" [formGroup]="formSearch">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <div class="form-inner">
+      <h2>LOGIN</h2>
+      <div class="content">
+        <input class="input" formControlName="username" type="text" placeholder="Username" />
+        <input class="input" formControlName="password" type="password" placeholder="Password" />
+        <button class="btn" (click)="onSubmit()">LOGIN</button>
+      </div>
+    </div>
+  </form>
+</div>
